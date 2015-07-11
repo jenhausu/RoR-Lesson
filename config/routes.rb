@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
   get 'pages/Home'
-
   get 'pages/About'
-
   get 'pages/FQA'
+  get 'pages/lottery', as:  :lottery
+  
+  get 'pages/form'
+  post 'pages/form2'
+
+
+  get 'pages/admin'
 end
 
   # The priority is based upon order of creation: first created -> highest priority.

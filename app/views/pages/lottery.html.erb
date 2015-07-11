@@ -1,0 +1,7 @@
+<h1> Lottery </h1>
+
+<ul>
+    <% @ball.to_a.sample(6).each_with_index do  |ball, i|   %>
+    <li> 第 <%= i+1 %> 顆球的號碼是 <%= ball %> </li>
+    <% end %>
+</ul>

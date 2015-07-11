@@ -1,0 +1,23 @@
+<h1> Form </h1>
+
+<form action = "form2" method = "POST">
+    名字 <input type="text" name="n" placeholder = "name" value = "蘇健豪">
+    身高 <input type="text" name="h" placeholder = "height" value = "1.8">
+    體重 <input type="text" name="w" placeholder = "weight" value = "65">
+    
+    <input type="text" name="authenticity_token">
+    
+    <input type="submit">
+</form>
+
+
+<form action = "form2" method = "POST">
+    <input type="text" name="nickname" value = "XDDD">
+    <input type="text" name="authenticity_token">
+    <input type="submit">
+</form>  </br>
+
+<%= form_tag "form2", method: :POST do %>
+  <%= text_field_tag :nickname %>
+  <%= submit_tag %>
+<% end  %>
