@@ -7,8 +7,10 @@ Rails.application.routes.draw do
   get 'pages/form'
   post 'pages/form2'
 
-
   get 'pages/admin'
+   
+  
+  resources :posts
 end
 
   # The priority is based upon order of creation: first created -> highest priority.

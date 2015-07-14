@@ -1,3 +1,6 @@
+
+
+
 # encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
@@ -11,7 +14,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150712052739) do
+ActiveRecord::Schema.define(version: 20150712055617) do
 
   create_table "posts", force: :cascade do |t|
     t.text "title"
